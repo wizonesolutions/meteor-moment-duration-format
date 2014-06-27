@@ -2,7 +2,7 @@ Package.describe({
   summary: 'Format Moment Duration objects.'
 });
 
-Package.on_use(function (api) {
+Package.on_use(function (api, where) {
   where = where || ['client', 'server'];
   api.use("moment", where);
   api.use("underscore", where);

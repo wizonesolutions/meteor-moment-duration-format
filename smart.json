@@ -1,6 +1,6 @@
 {
 	"name": "moment-duration-format",
-	"description": "Easier Moment.js duration formatting. (meteor-duration-format Moment.js plugin packaged for Meteor.)",
+	"description": "Easier Moment.js duration formatting. (moment-duration-format Moment.js plugin packaged for Meteor.)",
   "homepage": "https://github.com/wizonesolutions/meteor-moment-duration-format",
   "author": "wizonesolutions (http://www.wizonesolutions.com)",
 	"version": "1.2.1",
