@@ -1,0 +1,3 @@
+[submodule "lib/meteor-duration-format"]
+	path = lib/meteor-duration-format
+	url = https://github.com/jsmreese/moment-duration-format
