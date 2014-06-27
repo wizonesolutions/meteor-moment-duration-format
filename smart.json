@@ -6,6 +6,6 @@
 	"version": "1.2.1",
   "git": "https://github.com/wizonesolutions/meteor-moment-duration-format.git",
   "packages": {
-    "moment": "2.6.0"
+    "moment": "2.6.0-1"
   }
 }
