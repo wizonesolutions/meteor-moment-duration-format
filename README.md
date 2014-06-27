@@ -24,4 +24,5 @@ My biggest Meteor app so far is [Spendflow](https://github.com/spendflow/spendfl
 [Click to sign up for the private beta.](http://wiz1.us/spendflowbeta)
 
 Follow Spendflow on Twitter: [@spendflow](https://twitter.com/spendflow)
+
 Follow @wizonesolutions on Twitter: [@wizonesolutions](https://twitter.com/wizonesolutions)
