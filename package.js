@@ -4,15 +4,18 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   where = where || ['client', 'server'];
-  api.use("moment", where);
   api.use("underscore", where);
+  api.use("moment", where);
+
   if (api.imply) {
-    api.imply("moment", where);
     api.imply("underscore", where);
+    api.imply("moment", where);
   }
-  api.add_files('lib/moment-duration-format/lib/moment-duration-format.js', where);
+
+  api.add_files(['compatibility.js', 'lib/moment-duration-format/lib/moment-duration-format.js'], where);
+
   if (api.export) {
-    api.export('MomentDurationFormat');
+
   }
 });
 
