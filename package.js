@@ -8,7 +8,7 @@ Package.on_use(function (api, where) {
   api.versionsFrom("METEOR@0.9.0");
   where = where || ['client', 'server'];
   api.use("underscore", where);
-  api.use("momentjs:moment", where);
+  api.use("momentjs:moment@2.9.0", where);
 
   if (api.imply) {
     api.imply("underscore", where);
