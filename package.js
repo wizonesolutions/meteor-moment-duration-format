@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Format Moment Duration objects.',
-  version: "1.3.0",
+  version: "1.3.1",
   git: "https://github.com/wizonesolutions/meteor-moment-duration-format.git"
 });
 
@@ -8,11 +8,11 @@ Package.on_use(function (api, where) {
   api.versionsFrom("METEOR@0.9.0");
   where = where || ['client', 'server'];
   api.use("underscore", where);
-  api.use("mrt:moment@2.6.0", where);
+  api.use("momentjs:moment@2.9.0", where);
 
   if (api.imply) {
     api.imply("underscore", where);
-    api.imply("mrt:moment", where);
+    api.imply("momentjs:moment", where);
   }
 
   api.add_files(['compatibility.js', 'lib/moment-duration-format/lib/moment-duration-format.js'], where);
